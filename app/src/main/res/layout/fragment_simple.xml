@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间 : 0 秒"
+        android:layout_gravity="center"
+        android:id="@+id/tv"
+        />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id = "@+id/image01"
+            android:src="@drawable/simple_01"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id = "@+id/image02"
+            android:src="@drawable/simple_02"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id = "@+id/image03"
+            android:src="@drawable/simple_03"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id = "@+id/image04"
+            android:src="@drawable/simple_04"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id = "@+id/image05"
+            android:src="@drawable/simple_05"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id = "@+id/image06"
+            android:src="@drawable/simple_06"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id = "@+id/image07"
+            android:src="@drawable/simple_07"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id = "@+id/image08"
+            android:src="@drawable/simple_08"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id = "@+id/image09"
+            android:src="@drawable/simple_09"
+            android:padding="0dp"
+            android:onClick="onClick"
+            android:visibility="invisible"
+            />
+    </GridLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提示"
+        android:id="@+id/tip"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重新开始"
+        android:id="@+id/reStart"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/simple"
+        android:padding="20dp"
+        />
+</LinearLayout>

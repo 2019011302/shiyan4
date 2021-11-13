@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间 : 0 秒"
+        android:layout_gravity="center"
+        android:id="@+id/tv"
+        />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:columnCount="6"
+        android:rowCount="6"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image01"
+            android:src="@drawable/difficult_01"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image02"
+            android:src="@drawable/difficult_02"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image03"
+            android:src="@drawable/difficult_03"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image04"
+            android:src="@drawable/difficult_04"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image05"
+            android:src="@drawable/difficult_05"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image06"
+            android:src="@drawable/difficult_06"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image07"
+            android:src="@drawable/difficult_07"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image08"
+            android:src="@drawable/difficult_08"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image09"
+            android:src="@drawable/difficult_09"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image10"
+            android:src="@drawable/difficult_10"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image11"
+            android:src="@drawable/difficult_11"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image12"
+            android:src="@drawable/difficult_12"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image13"
+            android:src="@drawable/difficult_13"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image14"
+            android:src="@drawable/difficult_14"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image15"
+            android:src="@drawable/difficult_15"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image16"
+            android:src="@drawable/difficult_16"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image17"
+            android:src="@drawable/difficult_17"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image18"
+            android:src="@drawable/difficult_18"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image19"
+            android:src="@drawable/difficult_19"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image20"
+            android:src="@drawable/difficult_20"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image21"
+            android:src="@drawable/difficult_21"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image22"
+            android:src="@drawable/difficult_22"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image23"
+            android:src="@drawable/difficult_23"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image24"
+            android:src="@drawable/difficult_24"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image25"
+            android:src="@drawable/difficult_25"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image26"
+            android:src="@drawable/difficult_26"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image27"
+            android:src="@drawable/difficult_27"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image28"
+            android:src="@drawable/difficult_28"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image29"
+            android:src="@drawable/difficult_29"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image30"
+            android:src="@drawable/difficult_30"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image31"
+            android:src="@drawable/difficult_31"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image32"
+            android:src="@drawable/difficult_32"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image33"
+            android:src="@drawable/difficult_33"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image34"
+            android:src="@drawable/difficult_34"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image35"
+            android:src="@drawable/difficult_35"
+            android:padding="0dp"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id = "@+id/image36"
+            android:src="@drawable/difficult_36"
+            android:padding="0dp"
+            android:visibility="invisible"
+            />
+    </GridLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提示"
+        android:id="@+id/tip"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重新开始"
+        android:id="@+id/reStart"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/difficult"
+        android:padding="20dp"
+        />
+</LinearLayout>

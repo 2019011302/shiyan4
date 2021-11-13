@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间 : 0 秒"
+        android:layout_gravity="center"
+        android:id="@+id/tv"
+        />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image01"
+            android:src="@drawable/medium_01"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image02"
+            android:src="@drawable/medium_02"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image03"
+            android:src="@drawable/medium_03"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image04"
+            android:src="@drawable/medium_04"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image05"
+            android:src="@drawable/medium_05"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image06"
+            android:src="@drawable/medium_06"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image07"
+            android:src="@drawable/medium_07"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image08"
+            android:src="@drawable/medium_08"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image09"
+            android:src="@drawable/medium_09"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image10"
+            android:src="@drawable/medium_10"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image11"
+            android:src="@drawable/medium_11"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image12"
+            android:src="@drawable/medium_12"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image13"
+            android:src="@drawable/medium_13"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image14"
+            android:src="@drawable/medium_14"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image15"
+            android:src="@drawable/medium_15"
+            android:padding="0dp"
+            android:onClick="onClick"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id = "@+id/image16"
+            android:src="@drawable/medium_16"
+            android:padding="0dp"
+            android:onClick="onClick"
+            android:visibility="invisible"
+            />
+    </GridLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提示"
+        android:id="@+id/tip"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重新开始"
+        android:id="@+id/reStart"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/medium"
+        android:padding="20dp"
+        />
+</LinearLayout>
